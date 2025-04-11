@@ -12,6 +12,11 @@ conda install -c bioconda -c conda-forge entrez-direct sra-tools fastqc trimmoma
 conda install bioconda::seqkit;
 ```
 
+## Two Samples selected that were not previously used in class
+* These sample data were located in the ```test_data/``` folder.
+* Species: Listeria monocytogenes
+* Sample IDs: SRR33049470, SRR33028439
+
 ## Nextflow Version:
 * Nextflow version 24.10.5.5935
 
