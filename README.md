@@ -1,6 +1,6 @@
 ## Workflow Description
 
-## Environment Setup
+## Environment Setup (osx-64)
 ``` 
 ## Create an environment (Currently on OS)
 conda create -n nf -c bioconda nextflow -y;
@@ -20,7 +20,7 @@ conda install bioconda::seqkit;
 ## Nextflow Version:
 * Nextflow version 24.10.5.5935
 
-## Operating System (MacOS) 
+## Operating System (MacOS) osx-64
 * Tools Selected include fastp, skesa, and seqkit
 * Fastp was initially ran on raw Fastq sequences. These sequences were downloaded by the commands in `cmds.sh`.
 * After revising and trimming the reads using 
