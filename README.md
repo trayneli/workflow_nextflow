@@ -12,6 +12,9 @@ conda install -c bioconda -c conda-forge entrez-direct sra-tools fastqc trimmoma
 conda install bioconda::seqkit;
 ```
 
+## Activate environment
+```conda activate nf```
+
 ## Two Samples selected that were not previously used in class
 * These sample data were located in the ```test_data/``` folder.
 * Species: Listeria monocytogenes
@@ -24,6 +27,9 @@ conda install bioconda::seqkit;
 * Tools Selected include fastp, skesa, and seqkit
 * Fastp was initially ran on raw Fastq sequences. These sequences were downloaded by the commands in `cmds.sh`.
 * After revising and trimming the reads using 
+
+## Command usage
+```nextflow workflow_parallel_sequential.nf --reads "test_data/*_{1,2}.fastq.gz"```
 
 ## Workflow Image
 ![output_workflow_chart](https://github.com/user-attachments/assets/efacd15b-da7d-4308-9621-7ea5a991f0de)
